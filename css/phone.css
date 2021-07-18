@@ -1,0 +1,283 @@
+body{
+    /* margin: 0px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* navigation bar  */
+.navbar {
+    /* width: 100vw; */
+    position: sticky;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(41, 37, 37, 0.952);
+    border-color: rgba(255,255,255,.1);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-nav li{
+    padding: 0px;
+}
+.nav-item a{
+    font-size: 18px;
+    margin-left: 23px;
+}
+
+/* home */
+.carousel-inner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-inner img{
+    /* height: 643px; */
+    height: 600px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(70%);
+}
+.carousel-caption{
+    margin-top: 43px;
+    padding-top: 43px;  
+}
+.carousel-caption h1 {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 23px;
+}
+#rzp-button1 {
+    margin-top: 12px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+/* about */
+#about{
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+}
+.heading-about{
+    font-size: 60px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 43px;
+    text-decoration: underline;
+    color:#f09281;
+}
+#para1 {
+    /* display: flex; */
+    margin: 23px;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+}
+#para2{
+    display: flex;
+    margin: 23px;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+    margin-top: 50px;
+}
+#img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 23px;
+}
+#img img{
+    height: 227px;
+    width: 344px;
+    border: 2px solid black;
+    margin-bottom: 23px;
+}
+
+/* contact */
+#contact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+    color:#f09281;
+    text-decoration: underline;
+}
+.genQueries{
+    display: block;
+    margin: 30px;
+}
+.genQueries h2{
+    font-size: 29px;
+    color: rgba(255, 0, 0, 0.76);
+    text-decoration: underline;
+}
+.genQueries p{
+    font-size: 23px;
+}
+.donation{
+    display: block;
+    margin: 30px;
+    margin-bottom: 50PX;
+}
+.donation h2{
+    font-size: 29px;
+    color: rgba(255, 0, 0, 0.76);
+    text-decoration: underline;
+}
+.donation h4{
+    font-size: 25px;
+}
+.donation p {
+    font-size: 22px;
+}
+.address{
+    display:block;
+    margin: 29px,30px;
+    /* margin-left: 30px; */
+}
+.address h2{
+    font-size: 29px;
+    color: rgba(255, 0, 0, 0.76);
+    text-decoration: underline;
+    margin-bottom:  12px;
+}
+.address h3{
+    font-size: 25px;
+}
+.address p{
+    font-size: 23px;
+}
+
+/* footer  */
+#footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.connect h4{
+    margin-top: 23px;
+    font-size: 29px;
+    color: white;
+}
+.copyright p{
+    color: white;
+    font-size: 20px;
+    margin-left: 23px;
+}
+
+@media screen and (max-width:380px){
+    /* navigation bar  */
+    .navbar {
+        width: 100vw;
+        position: sticky;
+    }
+    .navbar-brand{
+        font-size: 18px;
+    }
+
+    /* home  */
+   .carousel-caption h1{
+      font-size: 45px;
+   }
+      .carousel-inner img{
+    /* height: 643px; */
+    height: 600px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(70%);
+    }
+    #rzp-button1{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    /* about  */
+    .heading-about{
+        font-size: 40px ;
+    }
+    #para1 {
+        font-size: 20px;
+    }
+    #para2{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    #img img{
+        height: 170px;
+        width: 225px;
+    }
+
+    /* contact  */
+    .heading-contact{
+        font-size: 40px;
+    }
+    .genQueries{
+        display: block;
+        margin: 15px;
+    }
+    .genQueries h2{
+        font-size: 20px;
+    }
+    .genQueries p{
+        font-size: 15px;
+    }
+    .donation{
+        display: block;
+        margin: 15px;
+        /* margin-bottom: 50PX; */
+    }
+    .donation h2{
+        font-size: 20px;
+    }
+    .donation h4{
+        font-size: 18px;
+    }
+    .donation p {
+        font-size: 15px;
+    }
+    .address{
+        display:block;
+        margin: 15px;
+    }
+    .address h2{
+        font-size: 20px;
+    }
+    .address h3{
+        font-size: 18px;
+    }
+    .address p{
+        font-size: 15px;
+    }
+
+    /* footer  */
+    .connect h4{
+        font-size: 20px;
+    }
+    .social{
+        font-size: 15px;
+    }
+    .copyright p{
+        font-size: 15px;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+}
+
