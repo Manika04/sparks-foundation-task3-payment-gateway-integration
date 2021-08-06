@@ -5,7 +5,7 @@ var options = {
     "name": "Manika Saxena",
     // "description": "To Manika Saxena ",
     // "image": "https://example.com/your_logo",
-    "order_id": "order_HhvHvHGA0xIIIY", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+    "order_id": "order_HaMBlPyvTOeDUk", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
     "handler": function (response){
         alert(response.razorpay_payment_id);
         alert(response.razorpay_order_id);
